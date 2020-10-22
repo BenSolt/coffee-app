@@ -42,3 +42,41 @@ code:before,
 code:after {
   content: '\`';
 }
+
+/* /////////////////////// */
+
+.holder{
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+.CoffeeApp{
+  /* background:black; */
+  box-shadow: 2px 2px 5px rgba(0,0,0,1);
+  height: 612px;
+  width: 512px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-radius: 3%;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.Input{
+  background: rgb(255, 253, 116);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+.Input2{
+  background: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+}
